@@ -1,0 +1,73 @@
+/* AdminDashboard.css */
+
+.admin-dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Style for the navigation and content section */
+.admin-content {
+    display: flex;
+    flex: 1;
+}
+
+.css-i9gxme {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 0 !important;
+}
+
+/* Style for the navigation section */
+.admin-nav {
+    background-color: #2874f0; /* Flipkart's primary color */
+    padding: 20px;
+    width: 20%; /* 20% width */
+    border-radius: 10px 0 0 10px; /* Rounded corners for the left side */
+    display: flex;
+    flex-direction: column;
+    justify-content: start; /* Align items to the top */
+}
+
+.admin-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.admin-nav li {
+    margin-bottom: 10px;
+}
+
+.admin-menu-item {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease; /* Smooth transition */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners for items */
+}
+
+.admin-menu-item i {
+    margin-right: 10px;
+}
+
+.admin-menu-item:hover {
+    text-decoration: none;
+    background-color: #1a5bb8; /* Slightly darker blue for hover */
+    opacity: 0.9; /* Reduce opacity on hover */
+}
+
+/* Style for the main content area */
+.admin-main-content {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 0 10px 10px 0; /* Rounded corners for the right side */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    margin-left: 20px; /* Add some spacing between nav and content */
+    overflow-y: auto; /* Add vertical scrolling if content overflows */
+}
